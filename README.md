@@ -4,6 +4,7 @@
 
 ## 進捗状況
 
+- [x] 0. イントロダクション
 - [ ] 1.  Basics
 - [ ] 2.  Packages, variables, and functions
 - [ ] 3.  Flow control statements
