@@ -4,21 +4,29 @@
 
 ## 進捗状況
 
-- [ ] 01. Basics
-- [ ] 02. Packages, variables, and functions
-- [ ] 03. Flow control statements
-- [ ] 04. More types: structs, slices, and maps
-- [ ] 05. Methods and interfaces
-- [ ] 06. Interfaces
-- [ ] 07. Concurrency
+- [ ] 1.  Basics
+- [ ] 2.  Packages, variables, and functions
+- [ ] 3.  Flow control statements
+- [ ] 4.  More types: structs, slices, and maps
+- [ ] 5.  Methods and interfaces
+- [ ] 6.  Interfaces
+- [ ] 7.  Concurrency
 
 ## ディレクトリ構造
 
 ```
 gotour/
 ├── 01-basics/              # 基本的な構文
+│   ├── hello/             # Hello, World!
+│   ├── sandbox/           # 乱数生成
+│   └── packages/          # パッケージの使用
 ├── 02-packages-variables-functions/  # パッケージ、変数、関数
+│   ├── functions/         # 関数の定義
+│   ├── multiple-results/  # 複数の戻り値
+│   └── variables/         # 変数の宣言
 ├── 03-flow-control/        # フロー制御文
+│   ├── for-loop/          # for文
+│   └── if-statement/      # if文
 ├── 04-more-types/          # より多くの型
 ├── 05-methods/             # メソッド
 ├── 06-interfaces/          # インターフェース
@@ -28,10 +36,11 @@ gotour/
 
 ## 実行方法
 
-各ディレクトリに移動して、以下のコマンドでプログラムを実行できます：
+各プログラムは以下のように実行できます：
 
 ```bash
-go run main.go
+cd 01-basics/hello && go run main.go
+cd 02-packages-variables-functions/functions && go run main.go
 ```
 
 ## 学習メモ
